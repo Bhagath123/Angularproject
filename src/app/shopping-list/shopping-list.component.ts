@@ -14,4 +14,7 @@ new Ingredients('Tomato',10)]
   ngOnInit() {
   }
 
+  additem(ingridents:Ingredients){
+    this.ingridents.push(ingridents);
+  }
 }
